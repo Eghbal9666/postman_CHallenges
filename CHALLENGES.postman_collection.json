@@ -1,14 +1,28 @@
 {
 	"info": {
-		"_postman_id": "de1ce4e5-4f64-4d73-8a28-54f3d888db8f",
-		"name": "CHALLENGES",
+		"_postman_id": "271ce59b-4940-4b5b-be02-d95cf2970c2d",
+		"name": "CHALLENGES Copy",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "37987653",
-		"_collection_link": "https://doorehami.postman.co/workspace/MyWorkspace~66e70c7e-0d5e-45fa-8f74-72c93165ba9c/collection/37987653-de1ce4e5-4f64-4d73-8a28-54f3d888db8f?action=share&source=collection_link&creator=37987653"
+		"_collection_link": "https://doorehami.postman.co/workspace/MyWorkspace~66e70c7e-0d5e-45fa-8f74-72c93165ba9c/collection/37987653-271ce59b-4940-4b5b-be02-d95cf2970c2d?action=share&source=collection_link&creator=37987653"
 	},
 	"item": [
 		{
 			"name": "challengesLIST",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
 			"request": {
 				"method": "GET",
 				"header": [],
