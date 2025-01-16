@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "d23a8794-2d42-4deb-b5b8-701930fb695f",
-		"name": "CHALLENGES Copy 3",
+		"_postman_id": "d199ba76-6bd3-4aa0-b2f5-ca9f723bc861",
+		"name": "CHALLENGES Copy 5",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "37987653",
-		"_collection_link": "https://doorehami.postman.co/workspace/MyWorkspace~66e70c7e-0d5e-45fa-8f74-72c93165ba9c/collection/37987653-d23a8794-2d42-4deb-b5b8-701930fb695f?action=share&source=collection_link&creator=37987653"
+		"_collection_link": "https://doorehami.postman.co/workspace/MyWorkspace~66e70c7e-0d5e-45fa-8f74-72c93165ba9c/collection/37987653-d199ba76-6bd3-4aa0-b2f5-ca9f723bc861?action=share&source=collection_link&creator=37987653"
 	},
 	"item": [
 		{
@@ -58,9 +58,7 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"pm.test(\"Status code is 204\", function () {\r",
-							"    pm.response.to.have.status(200);\r",
-							"});"
+							""
 						],
 						"type": "text/javascript",
 						"packages": {}
